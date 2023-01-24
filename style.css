@@ -1,0 +1,29 @@
+h1 {
+  color: aqua;
+}
+
+p {
+  color: darkgreen;
+}
+
+input {
+  color: blue;
+}
+
+ul {
+  color: chocolate;
+}
+
+.listaDePerros {
+  color:chocolate;
+}
+
+.listaDeGatos {
+  color: brown;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+}
+
+.tamanoLetra2 {
+  font-size: 35px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mi primera web</title>
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Comentario -->
+    <main>
+      <div >
+        <h1>Titulo principal</h1>
+        <h2 class="tamanoLetra2">Titulo para la pagina</h2>
+        <h2 style="color :rgb(145, 141, 148)">Cosas que le gustan a los perros</h2>
+        <p>Todos sabemos que a los perros les encanta jugar, que los acaricies, comer todo el día, dormir y correr en la playa. Sin embargo, los perros tienen algunas preferencias y comportamientos que disfrutan hacer que los humanos aún no conocemos y que son muy especiales al estilo perruno.</p>
+        <p>Los perros tienen múltiples actividades que los hacen felices y que disfrutan haciéndolas. En ellos todo es cuestión de instintos, naturaleza y preferencias sociales. Por ello, si tienes un perro en casa y quieres adentrarte más en el mundo canino, continúa leyendo este nuevo artículo de ExpertoAnimal, donde te diremos 10 cosas que aman los perros y que seguro hasta ahora no sabías.</p>
+        <ol class="listaDePerros">
+          <li>Recibir tu atención.</li>
+          <li>El sofa y la cama</li>
+          <li>Hacer ejercicio</li>
+          <li>Musica</li>
+        </ol>
+
+        <ol class="listaDeGatos">
+          <li>Estar arriba.</li>
+          <li>Dormir</li>
+          <li>Arreglarse las garras</li>
+          <li>Comer</li>
+        </ol>
+      </div>
+      <p>Resaltar texto siguiente: 
+        <span style="color:blue">Los perritos son bonitos</span> </p>
+      <p>cuando tenemos un texto demasiado largo podemos hacer uso de esta etiqueta:<br> pasamos a la siguiente linea</p>
+      <p>
+        <a target="_blank" href="https://www.google.com.mx">Ir a google</a>
+        <!-- Nueva pestaña       Hipervinculo -->
+        <br>
+        <a href="https://www.expertoanimal.com/10-cosas-que-aman-los-perros-22457.html"><img src="img/index.jpeg"/></a>
+        
+      </p>
+      
+      <form action="/send-answer">
+        <!-- botones de radio -->
+        <label for="fotoGato">ingrese dato</label><br>
+        <input type="enviar" placeholder="Ingrese foto del gato" required minlength="4" maxlength="45" id="fotoGato"><br>
+        <input type="password"><br>
+        
+        <label for="perros">
+          <input type="radio" id="perros" name="animales" checked value="perros">Perros
+        </label> <br>
+        
+        <label for="gatos">
+          <input type="radio" id="gatos" name="animales" value="gatos">Gatos
+        </label> <br>
+        
+        <label for="pajaros">
+          <input type="radio" id="pajaros" name="animales" value="pajaros">Pajaros
+        </label> <br>
+        <br> <br>
+
+        <!-- botones checkbox -->
+        <label for="blanco">
+          <input type="checkbox" id="blanco" checked value="blanco">Blanco
+        </label> <br>
+
+        <label for="cafe">
+          <input type="checkbox" id="cafe" value="cafe">Cafe
+        </label> <br>
+
+        <label for="azul">
+          <input type="checkbox" id="azul"value="azul">Azul
+        </label> <br>
+
+        <!-- Texto y boton enviar -->
+        <button type="submit"></button>
+      </form>
+    </main>
+    <footer>
+      
+      <p>
+        <small>Sin derechos de autor <a href="https://www.google.com/">Google</a> 
+        </small>
+      </p>
+        
+    </footer>
+
+  </body>
+</html> 
